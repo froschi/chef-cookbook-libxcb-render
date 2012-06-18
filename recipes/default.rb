@@ -1,3 +1,5 @@
+include_recipe "libxcb"
+
 packages = Array.new
 
 case node[:lsb][:codename]
